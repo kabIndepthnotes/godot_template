@@ -1,0 +1,1 @@
+indepthnotes.com/donate

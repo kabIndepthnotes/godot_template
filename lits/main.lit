@@ -1,0 +1,15 @@
+@code_type gdscript .gd
+@comment_type # %s
+
+@s main
+
+--- main.gd
+extends TODO
+@{export_vars}
+@{onready_vars}
+@{vars}
+@{consts}
+@{builtins}
+@{customs}
+---
+
