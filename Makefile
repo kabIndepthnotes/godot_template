@@ -1,3 +1,6 @@
 .PHONY = main
 main:
-	lit lits/main.lit --tangle --out-dir scripts/
+	lit lits/* --tangle --out-dir game/scripts/
+
+server:
+	ls lits/* | entr -s "make"
